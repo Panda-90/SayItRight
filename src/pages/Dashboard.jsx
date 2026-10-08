@@ -54,7 +54,7 @@ export default function Dashboard() {
       setResult(res);
       // If we used an override (like the Regenerate button which passes 'regenerate'), don't change the dropdown.
       // But we can keep it as is.
-    } catch (err) {
+    } catch {
       setError("We couldn't generate your message right now.");
     } finally {
       setLoading(false);
