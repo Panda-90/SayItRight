@@ -1,0 +1,19 @@
+# General
+node_modules/
+dist/
+dist-ssr/
+build/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.pyc
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+
+# Temporary files
+test_ai.py
